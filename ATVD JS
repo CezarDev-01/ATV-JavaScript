@@ -1,0 +1,175 @@
+ATIVIDADE JS Júlio Cezar 2º Modulo DS
+
+//1
+let numero = 10
+
+if (numero > 0) {
+  console.log("O número é positivo.")
+} else if (numero < 0) {
+  console.log("O número é negativo.")
+} else {
+  console.log("O número é zero.")
+}
+
+//2
+let numero = 7
+
+if (numero % 2 === 0) {
+  console.log("O número é par.")
+} else {
+  console.log("O número é ímpar.")
+}
+
+//3
+let nota = 8.5
+
+if (nota >= 9) {
+  console.log("A nota é A.")
+} else if (nota >= 8) {
+  console.log("A nota é B.")
+} 
+
+//4
+let ano = 2024;
+
+if ((ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0) {
+  console.log("O ano é bissexto.")
+} else {
+  console.JavaScript
+
+//5 
+let numero = 15
+
+if (numero > 10 && numero < 20) {
+  console.log("O número está entre 10 e 20.")
+}
+
+//6
+let num1 = 25;
+let num2 = 18;
+
+if (num1 > num2) {
+  console.log(num1 + " é o maior número.")
+} else if (num2 > num1) {
+  console.log(num2 + " é o maior número.")
+} else {
+  console.log("Os números são iguais.")
+}
+
+//7
+let caractere = 'a'
+let vogais = 'aeiouAEIOU'
+
+if (vogais.includes(caractere)) {
+  console.log("É uma vogal.")
+} else {
+  console.log("É uma consoante.")
+}
+
+//8
+let numero = 18
+
+if (numero % 3 === 0 || numero % 5 === 0) {
+  console.log("O número é múltiplo de 3 ou 5.")
+} else
+
+//9
+let hora = 16
+
+if (hora >= 5 && hora <= 11) {
+  console.log("Bom dia!");
+} else if (hora >= 12 && hora <= 17) {
+  console.log("Boa tarde!")
+} else {
+  console.log("Boa noite!")
+}
+
+//10
+let idade = 16
+
+if (idade >= 18) {
+  console.log("É maior de idade.")
+} else {
+  console.log("É menor de idade.")
+}
+
+//11
+let diaSemana = 2; // 0 - Domingo, 1 - Segunda
+
+switch (diaSemana) {
+  case 0:
+    console.log("Domingo")
+    break;
+  case 1:
+    console.log("Segunda-feira")
+    break
+  default:
+    console.log("Dia inválido")
+}
+
+//12
+let fruta = "banana";
+
+switch (fruta) {
+  case "maçã":
+  case "pera":
+  case "banana":
+    console.log("Fruta amarela.")
+    break;
+  case "morango":
+  case "cereja":
+    console.log("Fruta vermelha.")
+    break;
+  default:
+    console.log("Cor da fruta desconhecida.")
+}
+
+//13
+let numero = 13
+
+if (numero > 10 && numero < 20) {
+  console.log("O número", numero, "está entre 10 e 20.");
+} else {
+  console.log("O número", numero, "não está entre 10 e 20.")
+}
+
+//14 
+let idade = 19
+let podeVotar = idade >= 18 ? "Pode votar" : "Não pode votar"
+console.log(podeVotar);
+
+//15
+let idade = 59
+
+if (idade < 12 || idade >= 60) {
+  console.log("É criança ou idoso.")
+}
+
+//16
+function verificarEstacao(mes) {
+  switch (mes) {
+    case 12:
+    case 1:
+    case 2:
+      return "Verão";
+    case 3:
+    case 4:
+    case 5:
+      return "Outono";
+    case 6:
+    case 7:
+    case 8:
+      return "Inverno";
+    case 9:
+    case 10:
+    case 11:
+      return "Primavera";
+    default:
+      return "Mês inválido";
+  }
+}
+
+//17 
+let nota = 8.5
+let classificacao = nota >= 9 ? "A" : nota >= 8 ? "B" : nota >= 7 ? "C" : nota >= 6 ? "D" : "F";
+console.log("A nota é", classificacao)
